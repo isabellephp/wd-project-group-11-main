@@ -1,0 +1,288 @@
+/* estilos formulario contactos */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    background: #f2f2f2;
+    font-family: "Noto Sans",sans-serif;
+    font-size: 16px;
+}
+.contenidoo{
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+.contenidoo > h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #15cf8a;
+}
+.contenidordo{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.contenidordo .info{
+    width: 50%;
+}
+.contenidordo .formulario{
+    width: 50%;
+
+}
+.info .col{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.info .col .icono{
+    color: #15cf8a;
+    margin-right: 10px;
+}
+.info .col p{
+    color: #999;
+    line-height: 24px;
+}
+.info .redes-s{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info .redes-s a{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #15cf8a;
+    color: #fff;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px rgba(0,0,0,.4);
+}
+
+.info .redes-s a:hover{
+    box-shadow: 0px 8px 8px rgba(0,0,0,.4);
+    background: #000;
+}
+
+.formulario{
+    padding-left: 5px ;
+
+}
+.formulario input[type ='text'],
+.formulario .textarea{
+
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #999;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    outline: 0;
+}
+.formulario textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+
+
+}
+.formulario input[type ='text']:focus,
+.formulario .textarea:focus {
+    border: 1px solid #15cf8a;
+
+}
+.formulario button{
+    padding: 12px 30px;
+    border: transparent;
+    background: #15cf8a;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+
+}
+/* fim */
+/* estilos  fomulario editar conta */
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform:uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #8FBC8F;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.contetor .formulario1{
+    width: 50%;
+}
+.formulario1 input[type ='text']:focus,
+.formulario1 .textarea:focus {
+    border: 1px solid #15cf8a;
+
+}
+.formulario1 textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+
+
+}
+.formulario1 input[type ='text'],
+.formulario1 .textarea{
+
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #2b134b;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    outline: 0;
+
+}
+.formulario1{
+    padding-left: 10px ;
+
+}
+.contetor{
+    width: 70%;
+    max-width: 1500px;
+    background: #2b134b;
+    padding: 40px;
+    margin: 20px auto;
+    border-radius: 50px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.5);
+}
+.contetor > h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #15cf8a;
+}
+.cont{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+.cont .info{
+    width: 50%;
+}
+.cont .formulario{
+    width: 50%;
+
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    margin: 10px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+
+}
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+
+}
+.textfield >input::placeholder{
+    color: #f0ffff94;
+}
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login >h1{
+    color: #8FBC8F;
+    font-weight: 800;
+    margin: 0;
+}
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+/* fim  estilos  fomulario editar conta */
+
+/* estidos do editar requisiçoes*/
+.card-login2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.card-login2 >h1{
+    color: #8FBC8F;
+    font-weight: 800;
+    margin: 0;
+}
+/* fim*/
+#btn-login1{
+    width: 300px;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform:uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #8FBC8F;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}

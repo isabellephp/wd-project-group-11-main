@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/estilo3.css">
+    <title> SGAE - Sistema de Gestão e Administração de Equipamentos </title>
+    <br>
+    <br>
+    <br>
+</head>
+<body>
+
+<table>
+    <figure>
+        <td width="30%">
+            <a href="../index.html"><img src="../img/logo.png" align="left" width="60%" height="60%"></a>
+        </td>
+    </figure>
+    <td>
+        <font face="Arial" size="20px"> SGAE </font><p></td>
+    </tr>
+</table>
+<ul>
+    <li><a href="../index%20novo.html">Home</a></li>
+    <li><a href="../descri_produto_informatica.html">Informatica</a></li>
+    <li><a href="../descri_produto_eletronica.html">Eletronica</a></li>
+    <li><a href="../descri_produto_ferramentas.html">Ferramentas</a></li>
+    <li><a href="#news">Sobre</a></li>
+    <li class="dropdown" style="float: right;">
+        <a href="javascript:void(0)" class="dropbtn">Administrador </a>
+        <div class="dropdown-content">
+            <a href="admin_index.html">Minha Conta</a>
+            <a href="editar_conta_admin.html">Editar Conta </a>
+            <a href="estados_requisiçoes.html">Modificar Requisições </a>
+            <a href="verificar_clientes.html">Verificar Clientes</a>
+            <a href="../index%20novo.html">Terminar Sessão </a>
+        </div>
+    </li>
+</ul>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="../img/banner23.PNG" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="../img/image2.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="../img/image_test.png" style="width:100%">
+    </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
+
+
+<br>
+
+<div class="topnav">
+    <table style="width:100%" class="wrap-photo">
+        <section class="wrap-photo">
+            <th>
+                <img class="photo" width="45%" src="../img/Online%20ads-amico.png" alt="Imagem" />
+            </th>
+            <th>
+                <img class="photo" width="45%" src="../img/Team%20work-bro.png" alt="Imagem" />
+            </th>
+            <th>
+                <img class="photo" width="45%" src="../img/Online%20ads-pana.png" alt="Imagem" />
+            </th>
+        </section>
+    </table>
+</div>
+<div class="footer">
+    <p>© 2021 Sistema Gestão e Administração de Equipamentos - Todos os direitos reservados</p>
+</div>
+
+</body>
+</html>
