@@ -4,6 +4,7 @@
 body{
     margin: 0;
     font-family: "Noto Sans",sans-serif;
+
 }
 body *{
     box-sizing: border-box;
@@ -143,4 +144,26 @@ body *{
     card.card-login{
         width: 90%;
     }
+}
+/*  mudanças do card para a carcteriticas */
+.card-login2 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.da{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #232323;
+    overflow: hidden;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    background: #FFFAFA;
 }
