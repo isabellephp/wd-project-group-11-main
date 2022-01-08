@@ -153,7 +153,7 @@ body *{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #F5F5F5;
+    background: #FFFAFA;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -165,5 +165,20 @@ body *{
     overflow: hidden;
     padding: 100px 20px;
     box-sizing: border-box;
-    background: #FFFAFA;
+    background: #E6E6FA;
+}
+.btn-login2{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform:uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #98FB98;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
 }
